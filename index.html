@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Comandos de git</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Roboto+Mono&family=Roboto:ital,wght@1,300&family=Source+Code+Pro:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <header id="header">
+            <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" width="40" alt="github.gif">
+            Comandos de git
+            <span id="by">by: Jesbran</span>
+        </header>
+        <p id="prin">Para empezar poner <span style="color: rgb(255, 255, 132);">--help</span> después de un comando es superútil, ya que te abre una pestaña donde tendrás mucha 
+            información <br>oficial de git sobre como usar dicho comando.<br>
+            Si escribes <span style="color: rgb(255, 255, 132);">git help --all </span>te desplegara una lista con una gran cantidad de comandos y una pequeña descripción 
+            de lo que hace cada uno de ellos,<br> pero si quieres obtener más información sobre uno en específico es mejor hacerlo de la forma anteriormente mencionada.<br>
+            Por ejemplo: <span style="color: rgb(255, 255, 132);">git diff --help</span>
+        </p>
+        <section id="vamo">
+            <h1 id="git">
+                <img id="logo" src="https://cdn.worldvectorlogo.com/logos/git-bash.svg">
+                c/Users/EQUIPO
+            </h1>
+            <p class="host"><span style="color: rgb(12, 182, 12);">EQUIPO@DESKTOP  </span><span style="color: blueviolet;"> MINGW64 </span><span style="color: yellowgreen;">~</span></p>
+            <p id="jess">
+                MMMMMMMMMMMMMMMMMMMMMMMMMMMMWXOdd0WMMMMMMMMMMMMMMM
+                <br>MMMMMMMMMMMMMMMMMMMMMMMMMMWKo:,''oXMMMMMMMMMMMMMMM
+                <br>MMMMMMMMMMMMMMMMMMMMMMMMMWNd,'''';xWMMMMMMMMMMMMMM
+                <br>MMMMMMMMMMMMMMMMMMMMMMMMMWKc''''''c0WMMMMMMMMMMMMM
+                <br>MMMMMMMMMMMMMMMMMMMMMMMMWNk;'''''',dNMMMMMMMMMMMMM
+                <br>MMMMMMMMMMMMMMMMMMMMMMMMXOl'''''''':0MMMMMMMMMMMMM
+                <br>MMMMMMMMMMMMMMMMMMMMMMMWkc;'';:;''',xWMMMMMMMMMMMM
+                <br>MMMMMMMMMMMMMMMMMMMMMMMXo,'',oOc''''oNMMMMMMMMMMMM
+                <br>MMMMMMMMMMMMMMMMMMMMMMWk;''':OXd''';kX00NMMMMMMMMM
+                <br>MMMMMMMMMMMMMMMMMMMMMWXl''',dNNx,,cO0o;;dXMMMMMMMM
+                <br>MMMMMMMMMMMMWNXWMMMMMNx;'''lKWWkcx0k:''',xNMMMMMMM
+                <br>MMMMMMMMMWKkocdNMMMMW0c'',c0WMWK00o,''''';kNMMMMMM
+                <br>MMMMMMMMWO:,':0WMMMWXo,'cx0WMMWNk:,:c;'''';kWMMMMM
+                <br>MMMMMMMMXl'',xWMMMWKo,,oKWWMWXOdodk0Kk;'''':kNMMMM
+                <br>MMMMMMMNd,'':0MMMW0l;ckXMMWXOkOOOxlckXx;',:oONMMMM
+                <br>MMMMMMM0c'''cKMMWXkk0NWMMMWXXWNx;'':0WN0k0XWMMMMMM
+                <br>MMMMMMWO;'''cKWMMWWMMMMMMMMMMMKc'',dNMMMMMMMMMMMMM
+                <br>MMMMMMWk;''';OWMMMMMMMMMMMMMMWk;',oKMMMMMMMMMMMMMM
+                <br>MMMMMMM0:''''oXMMMMMMMMMMMMMW0c',dXWMMMMMMMMMMMMMM
+                <br>MMMMMMMXo'''',xNMMMMMMMMMMMWO:,:kNMMMMMMMMMMMMMMMM
+                <br>MMMMMMMW0c'''';xNMMMMMMMMWNx;;oKWMMMMMMMMMMMMMMMMM
+                <br>MMMMMMMMWO:'''',o0NWMMMW0xl;lONMMMMMMMMMMMMMMMMMMM
+                <br>MMMMMMMMMWOc,'''';lxkOOxoodONMMMMMMMMMMMMMMMMMMMMM
+                <br>MMMMMMMMMMWXkl;,'',;cox0NWWMMMMMMMMMMMMMMMMMMMMMMM
+                <br>MMMMMMMMMMMMWNOxddk0XWWMMMMMMMMMMMMMMMMMMMMMMMMMMM
+            </p>
+            <p id="jes">
+                Vamos ahora escribe <br>
+                git help --all <br>
+                para mostrarte una <br>
+                lista de comandos <br>
+                simulando que estas <br>
+                en una consola.
+            </p>
+            <p class="host"><span style="color: rgb(12, 182, 12);">EQUIPO@DESKTOP  </span><span style="color: blueviolet;"> MINGW64 </span><span style="color: yellowgreen;">~</span></p>
+            <p class="host">
+                <span style="font-size: 25px; color: rgb(126, 250, 143);">$</span> <textarea name="tex" id="tex" cols="30" rows="1" placeholder="git help --all "></textarea>
+            </p>
+            <section id="siu">
+                <p class="comando">git init</p>
+                <p class="descripcion">este comando inicia el repositorio</p><br>
+                <p class="comando">git add</p>
+                <p class="descripcion">añade los cambios especificados al area de staging</p><br>
+                <p class="comando">git commit -m "mensaje"</p>
+                <p class="descripcion">confirma los archivos que se encuentran en el area de staging y los agrega al repositorio</p><br>
+                <p class="comando">git commit -am "mensaje"</p>
+                <p class="descripcion">añade los archivos a staging y los agrega al repositorio, es la forma corta de hacer git add y git commit -m con un solo comando</p><br>
+                <p class="comando">git commit --amend</p>
+                <p class="descripcion">es una forma de hacer commit pero sin crear un nuevo commit. es decir los cambios se guardan en el ultimo commit realizado</p><br>
+                <p class="comando">git status</p>
+                <p class="descripcion">te da una descripcion de donde te encuentras y del estado de los archivos (untracked, ready to commit y nothing to commit)</p><br>
+                <p class="comando">git config --list</p>
+                <p class="descripcion">muestra la configuracion global</p><br>
+                <p class="comando">git config --global user.email "tuemail@gmail.com"</p>
+                <p class="descripcion">agrega tu email a la configuracion</p><br>
+                <p class="comando">git config --global user.name "nombre"</p>
+                <p class="descripcion">configura como sera tu nombre (asi se vera tu nombre en los commits)</p><br>
+                <p class="comando">git checkout commit/branch filename</p>
+                <p class="descripcion">permite regresarte al estado en el cual se realizo un commit o un branch especificado, pero no elimina lo que esta en el staging</p><br>
+                <p class="comando">git checkout -filepath</p>
+                <p class="descripcion">deshace cambios de un archivo en estado modified (que ni fue agregado a staging)</p><br>
+                <p class="comando">git rm</p>
+                <p class="descripcion">elimina archivos de git sin eliminar su historial del sistema de versiones, esto quiere decir que podemos recuperar el archivo en cuestion. 
+                    <br> git rm no se puede usar por si solo</p><br>
+                <p class="comando">git rm --cached</p>
+                <p class="descripcion">elimina los archivos del area de staging y del proximo commit, pero los mantiene en el disco duro</p><br>
+                <p class="comando">git rm --forced</p>
+                <p class="descripcion">elimina los archivos de git y del disco duro. git siempre guarda todo por lo que podemos acceder al registro y recuperarlo</p><br>
+                <p class="comando">git reset --soft</p>
+                <p class="descripcion">vuelve el branch al estado del commit especificado, pero mantiene los archivos en el directorio de trabajo y lo que haya en staging y lo 
+                    considera <br> todo como nuevos cambios, asi que podemos poner las ultimas actualizaciones en un nuevo commit</p><br>
+                <p class="comando">git reset --hard</p>
+                <p class="descripcion">borra toda la informacion del commit especificado y del area de staging borra el historial</p><br>
+                <p class="comando">git reset HEAD</p>
+                <p class="descripcion">solo saca los archivos del area de staging, de forma que sus modificaciones no se guardaran en el commit, aunque podemos incluirlos
+                    de nuevo con git add
+                </p><br>
+                <p class="comando">git branch</p>
+                <p class="descripcion">muestra las ramas existentes en el directorio local</p><br>
+                <p class="comando">git branch name_branch</p>
+                <p class="descripcion">crea una nueva rama con el nombre especificado</p><br>
+                <p class="comando">git branch -r</p>
+                <p class="descripcion">muestra las ramas remotas</p><br>
+                <p class="comando">git branch -a</p>
+                <p class="descripcion">muestra todas las ramas, locales y remotas</p><br>
+                <p class="comando">git checkout name_branch</p>
+                <p class="descripcion">se mueve a la rama especificada</p><br>
+                <p class="comando">git merge name_branch</p>
+                <p class="descripcion">fusiona la rama especificada con la rama en la que te encuentras y produce un commit de esta fusion</p><br>
+                <p class="comando">git log</p>
+                <p class="descripcion">lista los commits realizados</p><br>
+                <p class="comando">git log --stat</p>
+                <p class="descripcion">lista los commits realizados y muestra la cantidad de bits añadidos en cada archivo modificado</p><br>
+                <p class="comando">git log --all --graph --decorate --oneline</p>
+                <p class="descripcion">muestra de manera grafica, embellesida y comprimida toda la historia del repositorio</p><br>
+                <p class="comando">git show filename</p>
+                <p class="descripcion">te muestra la historia de cambios del archivo especificado</p><br>
+                <p class="comando">git diff idcommit1 idcommit2</p>
+                <p class="descripcion">muestra las diferencias entre dos commits especificados</p><br>
+                <p class="comando">git reflog</p>
+                <p class="descripcion">es como el git log solo que este muestra absolutamente toda la historia verdadera del repositorio, incluso aunque 
+                    hayas hecho un git commit --amend <br>para guardar cambios en un commit previo para no generar un nuevo commit este te los muestra como dos
+                    commits diferentes</p><br>
+                <p class="comando">git grep palabra</p>
+                <p class="descripcion">busca y muestra los archivos en los que usaste dicha palabra especificada</p><br>
+                <p class="comando">git grep -n palabra</p>
+                <p class="descripcion">busca y te muestra las lineas en las que usaste dicha palabra</p><br>
+                <p class="comando">git grep -c palabra</p>
+                <p class="descripcion">busca y te muestra cuantas veces usaste dicha palabra</p><br>
+                <p class="comando">git log --all --grep palabra</p>
+                <p class="descripcion">muestra donde usaste dicha palabra, pero en los mensajes de los commits</p><br>
+                <p class="comando">git blame name_archivo</p>
+                <p class="descripcion">muestra quien escribio cada linea del archivo (asi es, linea por linea)</p><br>
+                <p class="comando">git blame name archivo -Llineainicial,lineafinal</p>
+                <p class="descripcion">muestra quien escribio cada linea pero desde las lineas especificadas</p><br>
+                <p class="comando">git log --oneline</p>
+                <p class="descripcion">te muestra el id y el titulo del commit en una sola linea</p><br>
+                <p class="comando">git --decorate</p>
+                <p class="descripcion">te muestra donde se ecuentra el head point</p><br>
+                <p class="comando">git log -p</p>
+                <p class="descripcion">explica el numero de lineas que se cambiaron y te muestra que se cambio en el contenido</p><br>
+                <p class="comando">git shortlog</p>
+                <p class="descripcion">indica que commits a realizado un usuario y el titulo de sus commits</p><br>
+                <p class="comando">git shortlog -sn</p>
+                <p class="descripcion">muestra cuantos commits a hecho cada miembro del equipo</p><br>
+                <p class="comando">git shortlog -sn --all</p>
+                <p class="descripcion">muestra cuantos commits a hecho cada miembro del equipo, incluyendo los commits eliminados</p><br>
+                <p class="comando">git shortlog -sn --all --no-merge</p>
+                <p class="descripcion">muestra cuantos commits a hecho cada miembro del equipo, sin contar los merge</p><br>
+                <p class="comando">git log -3</p>
+                <p class="descripcion">limitamos el numero de commits</p><br>
+                <p class="comando">git log after="fecha"</p>
+                <p class="descripcion">localizar commits por fechas</p><br>
+                <p class="comando">git log --author="name_author"</p>
+                <p class="descripcion">commits realizados por un autor que cumpla exactamente con el nombre</p><br>
+                <p class="comando">git log --grep="INVIE"</p>
+                <p class="descripcion">busca los commits que cumplan tal cual esta entre comillas</p><br>
+                <p class="comando">git log --grep="INVIE" --i</p>
+                <p class="descripcion">busca los commits que cumplan sin importar mayusculas o minusculas</p><br>
+                <p class="comando">git log --index.html</p>
+                <p class="descripcion">busca los commits en un archivo especifico</p><br>
+                <p class="comando">git log log.txt</p>
+                <p class="descripcion">guarda los log en un archivo txt</p><br>
+                <p class="comando">git rebase name_branch</p>
+                <p class="descripcion">fusiona la historia de la rama especificada con la de la rama en la que te encuentras, solo que esta lo hace de una 
+                    manera silenciosa, <br> es decir como si todos los commits hubieran sucedido en esta rama y la otra nunca hubiera existido ¡por eso hay que tener cuidado al usar
+                    este comando!
+                </p><br>
+                <p class="comando">git stash</p>
+                <p class="descripcion">guarda los cambios en una memoria temporal y te devuelve al ultimo commit realizado, este se utiliza cuando los cambios
+                    aun no estan listos <br> para hacer commit, ya que al guardarlos de esta forma te puedes mover entre ramas y seguir trabajando normal y podras aplicar
+                    los cambios cuado estes listo
+                </p><br>
+                <p class="comando">git stash -u</p>
+                <p class="descripcion">crea un stash con todos los archivos, incluyendo los untracked</p><br>
+                <p class="comando">git stash save "mensaje"</p>
+                <p class="descripcion">guarda el stash con un mensaje para que sea mas facil identificarlo</p><br>
+                <p class="comando">git stash list</p>
+                <p class="descripcion">lista los stash existentes</p><br>
+                <p class="comando">git stash clear</p>
+                <p class="descripcion">elimina todos los stash</p><br>
+                <p class="comando">git stash drop</p>
+                <p class="descripcion">elimina el stash mas reciente</p><br>
+                <p class="comando">git stash drop stash@{num_stash}</p>
+                <p class="descripcion">elimina el stash especificado</p><br>
+                <p class="comando">git stash apply</p>
+                <p class="descripcion">aplica los cambios del stash mas reciente</p><br>
+                <p class="comando">git stash stash@{num_stash}</p>
+                <p class="descripcion">aplica los cambios del stash especificado</p><br>
+                <p class="comando">git stash pop</p>
+                <p class="descripcion">aplica los cambios del stash mas reciente y lo elimina de stash</p><br>
+                <p class="comando">git stash pop stash@{num_stash}</p>
+                <p class="descripcion">aplica los cambios del stash especificado y lo elimina del stash</p><br>
+                <p class="comando">git stash branch name_branch</p>
+                <p class="descripcion">crea una rama y aplica el stash mas reciente</p><br>
+                <p class="comando">git stash branch name_branch stash@{num_stash}</p>
+                <p class="descripcion">crea una rama y aplica el stash especificado</p><br>
+                <p class="comando">git clean</p>
+                <p class="descripcion">borra archivos de tu directorio de trabajo, solo funciona con archivos untracked</p><br>
+                <p class="comando">git clean --dry -run</p>
+                <p class="descripcion">te muestra los archivos que seran borrados</p><br>
+                <p class="comando">git clean -f</p>
+                <p class="descripcion">borra los archivos</p><br>
+                <p class="comando">git clean -df</p>
+                <p class="descripcion">borra los archivos y carpetas</p><br>
+                <p class="comando">git cherry-pick</p>
+                <p class="descripcion">es una forma de hacer merge, pero sin traer todos los cambios, solo trae los cambios del commit especificado ¡es una mala practica
+                    ya que es como si <br> estubieras reconstruyendo la historia!
+                </p><br>
+                <p class="comando">git fetch</p>
+                <p class="descripcion">trae los cambios de el repositorio remoto al repositorio local</p><br>
+                <p class="comando">git merge</p>
+                <p class="descripcion">fusiona los cambios del repositorio local con el directoriode trabajo</p><br>
+                <p class="comando">git pull</p>
+                <p class="descripcion">hace lo mismo que git fetch y git merge pero en un solo comando, asi que es mas practico</p><br>
+                <p class="comando">git push origin main</p>
+                <p class="descripcion">envia los cambios al repositorio remoto; origin es el nombre predeterminado que recibe el repositorio remoto contra 
+                    el que trabajamos y main porque <br> es el nombre por defecto que recibe nuestra rama principal. pero hay que tener cuidado ya que al crear un nuevo 
+                    repositorio git llama a la rama <br> principal master esto es porque asi era desde el pasado, si este es tu caso solo escribe git push origin master:main y
+                    ya podras enviar los cambios sin problema
+                </p><br>
+                <p class="comando">git remote -v</p>
+                <p class="descripcion">lista las ramas remotas que son por las cuales se conectan el repositorio local y el repositorio remoto</p><br>
+                <p class="comando">git remote add name_branch url_del_repo</p>
+                <p class="descripcion">agrega una rama remota conectada a dicho repo</p><br>
+                <p class="comando">git config --global alias.name_alias "comando"</p>
+                <p class="descripcion">te crea un alias para el comando especificado, asi podras escribir de forma mas rapida el comando, <br> por ejemplo 
+                    git config --global alias.loginc "git log --all --graph --decorate --oneline" <br> asi no tendras que escribir ese comando tan largo
+                    solo tendras que escribir git loginc y listo :0 mas facil no?
+                </p><br>
+                <p id="creditos">
+                                
+                    ▀█░█▀ █▀▀█ █▀▀█ ░▀░ █▀▀█ 　 █▀▀▄ █▀▀ 　 █▀▀ █▀▀ ▀▀█▀▀ █▀▀█ 　 ░▀░ █▀▀▄ █▀▀ █▀▀█ █▀▀█ █▀▄▀█ █▀▀█ █▀▀ ░▀░ █▀▀█ █▀▀▄ 　 █▀▀ █░░█ █▀▀ 　 ▀▀█▀▀ █▀▀█ █▀▄▀█ █▀▀█ █▀▀▄ █▀▀█<br>
+                    ░█▄█░ █▄▄█ █▄▄▀ ▀█▀ █▄▄█ 　 █░░█ █▀▀ 　 █▀▀ ▀▀█ ░░█░░ █▄▄█ 　 ▀█▀ █░░█ █▀▀ █░░█ █▄▄▀ █░▀░█ █▄▄█ █░░ ▀█▀ █░░█ █░░█ 　 █▀▀ █░░█ █▀▀ 　 ░░█░░ █░░█ █░▀░█ █▄▄█ █░░█ █▄▄█<br>
+                    ░░▀░░ ▀░░▀ ▀░▀▀ ▀▀▀ ▀░░▀ 　 ▀▀▀░ ▀▀▀ 　 ▀▀▀ ▀▀▀ ░░▀░░ ▀░░▀ 　 ▀▀▀ ▀░░▀ ▀░░ ▀▀▀▀ ▀░▀▀ ▀░░░▀ ▀░░▀ ▀▀▀ ▀▀▀ ▀▀▀▀ ▀░░▀ 　 ▀░░ ░▀▀▀ ▀▀▀ 　 ░░▀░░ ▀▀▀▀ ▀░░░▀ ▀░░▀ ▀▀▀░ ▀░░▀<br>
+
+                    █▀▀▄ █▀▀ 　 █▀▀█ █▀▀█ █▀▀█ █▀▀█ ▀▀█▀▀ █▀▀ █▀▀ 　 █░░█ █▀▀ █▀▀ █░░█ █▀▀█ █▀▀ 　 █▀▀█ █▀▀█ █▀▀█ 　 █▀▀ █▀▀█ █▀▄▀█ █▀▀█ █▀▀█ █▀▀▄ █▀▀ █▀▀█ █▀▀█ █▀▀ <br>
+                    █░░█ █▀▀ 　 █▄▄█ █░░█ █░░█ █▄▄▀ ░░█░░ █▀▀ ▀▀█ 　 █▀▀█ █▀▀ █░░ █▀▀█ █░░█ ▀▀█ 　 █░░█ █░░█ █▄▄▀ 　 █░░ █░░█ █░▀░█ █░░█ █▄▄█ █░░█ █▀▀ █▄▄▀ █░░█ ▀▀█ <br>
+                    ▀▀▀░ ▀▀▀ 　 ▀░░▀ █▀▀▀ ▀▀▀▀ ▀░▀▀ ░░▀░░ ▀▀▀ ▀▀▀ 　 ▀░░▀ ▀▀▀ ▀▀▀ ▀░░▀ ▀▀▀▀ ▀▀▀ 　 █▀▀▀ ▀▀▀▀ ▀░▀▀ 　 ▀▀▀ ▀▀▀▀ ▀░░░▀ █▀▀▀ ▀░░▀ ▀░░▀ ▀▀▀ ▀░▀▀ ▀▀▀▀ ▀▀▀ <br>
+
+                    █▀▀ █▀▀▄ 　 █▀▀ █░░ 　 █▀▀ █░░█ █▀▀█ █▀▀ █▀▀█ 　 █▀▀▄ █▀▀ 　 █▀▀▀ ░▀░ ▀▀█▀▀ 　 █░░█ 　 █▀▀▀ ░▀░ ▀▀█▀▀ █░░█ █░░█ █▀▀▄ <br>
+                    █▀▀ █░░█ 　 █▀▀ █░░ 　 █░░ █░░█ █▄▄▀ ▀▀█ █░░█ 　 █░░█ █▀▀ 　 █░▀█ ▀█▀ ░░█░░ 　 █▄▄█ 　 █░▀█ ▀█▀ ░░█░░ █▀▀█ █░░█ █▀▀▄ <br>
+                    ▀▀▀ ▀░░▀ 　 ▀▀▀ ▀▀▀ 　 ▀▀▀ ░▀▀▀ ▀░▀▀ ▀▀▀ ▀▀▀▀ 　 ▀▀▀░ ▀▀▀ 　 ▀▀▀▀ ▀▀▀ ░░▀░░ 　 ▄▄▄█ 　 ▀▀▀▀ ▀▀▀ ░░▀░░ ▀░░▀ ░▀▀▀ ▀▀▀░ <br>
+
+                    █▀▀▄ █▀▀ 　 █▀▀█ █░░ █▀▀█ ▀▀█▀▀ ▀▀█ ░▀░ <br>
+                    █░░█ █▀▀ 　 █░░█ █░░ █▄▄█ ░░█░░ ▄▀░ ▀█▀ <br>
+                    ▀▀▀░ ▀▀▀ 　 █▀▀▀ ▀▀▀ ▀░░▀ ░░▀░░ ▀▀▀ ▀▀▀
+                </p>
+                <p class="comando">clear</p>
+                <p class="descripcion">este no es un comando de git pero sirve para limpiar la consola, prueba escribiendolo</p><br>
+                <p class="host"><span style="color: rgb(12, 182, 12);">EQUIPO@DESKTOP  </span><span style="color: blueviolet;"> MINGW64 </span><span style="color: yellowgreen;">~</span></p>
+                <p class="host">
+                    <span style="font-size: 25px; color: rgb(126, 250, 143);">$</span> <textarea name="limpiar" id="limpiar" cols="30" rows="1" placeholder="clear"></textarea>
+                </p>
+
+            </section>
+        </section>
+    </div>
+    <script src="js/ola.js"></script>
+</body>
+</html>

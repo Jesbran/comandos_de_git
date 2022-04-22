@@ -1,0 +1,131 @@
+body{
+    background-image: url(https://i.pinimg.com/originals/21/c0/42/21c042355fac117f418fe47fd99ea6c5.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#header{
+    background: rgb(0, 0, 0);
+    /*box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.5);*/
+    color: rgba(255, 255, 255, 0.678);
+    font-weight: bold;
+    margin: 0;
+    padding: 0.5em;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+#git{
+    background-color: rgba(245, 245, 220, 0.425);
+    font-family: monospace;
+    font-size: 25px;
+    color: #202731d2;
+}
+#vamo{
+    width: 100%;
+    background: rgba(88, 78, 139, 0);
+}
+div{
+    background-color: rgba(38, 32, 43, 0.658);
+    width: 100%;
+    padding: 0;
+    text-align: left;
+    border: 0;
+    margin: auto;
+}
+#tex{
+    width: 20%;
+    background-color: rgba(160, 160, 160, 0.432);
+    font-size: 20px;
+}
+#tex:hover{
+    cursor: pointer;
+    background: rgb(160, 160, 160);
+    box-shadow: 0px 2px 20px 0px rgba(177, 225, 253, 0.678);
+}
+#tex:focus{
+    cursor: text;
+    background-color: rgba(160, 160, 160, 0.432);
+    color: rgb(19, 19, 19);
+}
+#prin{
+    background-color: #202731;
+    color: rgb(160, 160, 160);
+    width: 98%;
+    border: 0;
+    font-size: 23px;
+    padding: 10px;
+}
+#siu{
+    display: none;
+}
+#logo{
+    position: relative;
+    width: 1.5%;
+}
+.host{
+    padding: .5rem;
+    word-spacing: .4rem;
+}
+#jess{
+    font-family: monospace;
+    padding-left: 10rem;
+    background: linear-gradient(rgb(0, 255, 221),rgb(252, 0, 218));
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+}
+#jes{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 15px;
+    color: rgba(40, 248, 255, 0.562);
+    display: inline-block;
+    padding-left: 5rem;
+    position: relative;
+    bottom: 150px;
+}
+.comando{
+    padding-left: 2rem;
+    font-size: 18px;
+    font-family: monospace;
+    color: rgb(255,255,132);
+    display: inline-block;
+}
+.descripcion{
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Source Code Pro', monospace;
+    color: rgb(184, 184, 184);
+    display: inline-block;
+    text-align: justify;
+    padding-left: 4rem;
+}
+#by{
+    font-size: .85rem;
+    padding: 1rem;
+}
+#creditos{
+    text-align: center;
+    background: linear-gradient(rgba(251, 255, 0, 0.637),rgb(252, 0, 218));
+    -webkit-background-clip: text;
+    color: transparent;
+}
+#limpiar{
+    width: 20%;
+    background-color: rgba(160, 160, 160, 0.432);
+    font-size: 20px;
+}
+#limpiar:hover{
+    cursor: pointer;
+    background: rgb(160, 160, 160);
+    box-shadow: 0px 2px 20px 0px rgba(177, 225, 253, 0.678);
+}
+#limpiar:focus{
+    cursor: text;
+    background-color: rgba(160, 160, 160, 0.432);
+    color: rgb(19, 19, 19);
+}
