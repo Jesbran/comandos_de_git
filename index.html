@@ -70,6 +70,10 @@
             <section id="siu">
                 <p class="comando">git init</p>
                 <p class="descripcion">este comando inicia el repositorio</p><br>
+                <p class="comando">rm -rf .git</p>
+                <p class="descripcion">con este comando borras el repositorio, en si no es que se borre sino que git deja de rastrearlo, todo vuelve 
+                    a la normalidad.
+                </p><br>
                 <p class="comando">git add</p>
                 <p class="descripcion">añade los cambios especificados al area de staging</p><br>
                 <p class="comando">git commit -m "mensaje"</p>
@@ -229,6 +233,10 @@
                     el que trabajamos y main porque <br> es el nombre por defecto que recibe nuestra rama principal. pero hay que tener cuidado ya que al crear un nuevo 
                     repositorio git llama a la rama <br> principal master esto es porque asi era desde el pasado, si este es tu caso solo escribe git push origin master:main y
                     ya podras enviar los cambios sin problema
+                </p><br>
+                <p class="comando">git branch -M main</p>
+                <p class="descripcion">cambia el nombre de la rama, en este caso lo cambia a main; este sirve para que los nombres de la rama remota y la local sean el mismo 
+                    y no haya tando problema al hacer push
                 </p><br>
                 <p class="comando">git remote -v</p>
                 <p class="descripcion">lista las ramas remotas que son por las cuales se conectan el repositorio local y el repositorio remoto</p><br>
